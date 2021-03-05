@@ -6,11 +6,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+# Paulina Bureau de change - Laravel
 
-## INSTRUCTIONS
+## Installation
 
-1. Clone repository
-2. Run php artisan migrate
-3. Run php artisan db:seed
-4. Run php artisan serve
+1.Run git clone https://github.com/zhiriezra/dechange.git dechange
+2. Run composer install (install composer beforehand)
+3. From the projects root run cp .env.example .env
+4. Configure your .env file
+5. Run php artisan key:generate
+6. Run php artisan migrate
+7. Run php artisan serve
 
+## Seeded credentials
+
+Admin:
+email: admin@paulina.com
+password: secret123
+
+Customer: 
+email: customer@paulina.com
+password: secret123
