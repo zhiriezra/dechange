@@ -10,6 +10,7 @@
 
 ## Installation
 
+```
 1.Run git clone https://github.com/zhiriezra/dechange.git dechange
 2. Run composer install (install composer beforehand)
 3. From the projects root run cp .env.example .env
@@ -17,13 +18,13 @@
 5. Run php artisan key:generate
 6. Run php artisan migrate
 7. Run php artisan serve
-
+```
 ## Seeded credentials
 
-Admin:
+-Admin:
 email: admin@paulina.com
 password: secret123
 
-Customer: 
+-Customer: 
 email: customer@paulina.com
 password: secret123
